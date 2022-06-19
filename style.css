@@ -6,7 +6,7 @@ body {
 
 header {
     margin:0;
-    padding: 0 10%;
+    padding: 0 15%;
     background-color: #1F2937;
     color: #f4f4f4;
     min-height: 380px;
@@ -76,3 +76,41 @@ a:link {
     width: 50%;
     background-color: #888b8f;
 }
+
+.sect-one {
+    margin:0;
+    padding: 0 15%;
+    min-height: 300px;
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+.boxes {
+    display: flex;
+    
+
+}
+
+.box {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    /* margin: 0px; */
+
+}
+.sect-two {
+    background-color: #9ba1a8;
+    min-height: 250px;
+    margin:0;
+    padding: 10% 20% 0;
+}
+.two-inner p{
+    font-weight: 100;
+    font-size: x-large;
+}
+.two-inner h4{
+    text-align: end;
+}
+
