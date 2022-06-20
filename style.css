@@ -87,8 +87,7 @@ figure{
     text-align: center;
 }
 .boxes {
-    display: flex;
-    
+    display: flex;  
 
 }
 
@@ -101,16 +100,64 @@ figure{
 
 }
 .sect-two {
-    background-color: #9ba1a8;
-    min-height: 250px;
+    background-color: #E5E7EB;
+    min-height: 120px;
     margin:0;
-    padding: 10% 20% 0;
+    padding: 5% 30%;
 }
-.two-inner p{
-    font-weight: 100;
-    font-size: x-large;
+.quote{
+    margin: 20px 0;
 }
-.two-inner h4{
+.quote p{
+    display:inline;
+    /* text-align: center; */
+    font: 48px light italic #1F2937;
+}
+.quote h4{
+    margin:auto;
     text-align: end;
 }
+.sect-three {
+    /* background-color: #f9faf8; */
+    padding: 0 15%;
+    margin: 0;
+    color:#E5E7EB;
+    justify-content: center;
+    min-height: 150px;
+}
+.call2action {
+    max-height: 80px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px 60px;
+    margin: 60px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.c2a h4{
+    margin:0;
+}
+.c2a p{
+    margin: 0;
+    font-size: small;
+}
+.button2 {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    
+    padding: 3px 15px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: small;
 
+}
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color:#f4f4f4;
+    margin-top: 10px;
+    padding: 5px;
+
+
+}
