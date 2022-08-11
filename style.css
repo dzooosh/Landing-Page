@@ -88,6 +88,7 @@ figure{
 }
 .boxes {
     display: flex;  
+    justify-content: space-between;
 
 }
 
@@ -95,7 +96,7 @@ figure{
     border: 2px solid #3882f6;
     border-radius: 10px;
     height: 100px;
-    width: 100px;
+    width: 150px;
     /* margin: 0px; */
 
 }
@@ -110,7 +111,7 @@ figure{
 }
 .quote p{
     display:inline;
-    /* text-align: center; */
+    font-size: large;
     font: 48px light italic #1F2937;
 }
 .quote h4{
